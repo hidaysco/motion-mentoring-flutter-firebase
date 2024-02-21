@@ -45,29 +45,32 @@ class MyApp extends StatelessWidget {
                             ),
                           ),
                           const SizedBox(height: 20),
-
-                          // Todo Item
-                          TodoItemWidget(
-                            id: "1",
-                            name: "Ini todo pertama",
-                            status: true,
-                            onDelete: (id) {
-                              handleDeleteTodo(id);
-                            },
-                            onToggle: (id, status) {
-                              handleToggleTodo(id, status);
-                            },
-                          ),
-                          TodoItemWidget(
-                            id: "2",
-                            name: "Ini todo kedua",
-                            status: false,
-                            onDelete: (id) {
-                              handleDeleteTodo(id);
-                            },
-                            onToggle: (id, status) {
-                              handleToggleTodo(id, status);
-                            },
+                          Column(
+                            children: [
+                              // Todo Item
+                              TodoItemWidget(
+                                id: "1",
+                                name: "Ini todo pertama",
+                                status: true,
+                                onDelete: (id) {
+                                  handleDeleteTodo(id);
+                                },
+                                onToggle: (id, status) {
+                                  handleToggleTodo(id, status);
+                                },
+                              ),
+                              TodoItemWidget(
+                                id: "2",
+                                name: "Ini todo kedua",
+                                status: false,
+                                onDelete: (id) {
+                                  handleDeleteTodo(id);
+                                },
+                                onToggle: (id, status) {
+                                  handleToggleTodo(id, status);
+                                },
+                              ),
+                            ],
                           ),
                         ],
                       ),
