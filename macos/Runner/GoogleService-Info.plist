@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDFfT1InXOr0KZ9fBISYgiPnl0BzPqALNo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>360154272752</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.motionFlutterFirebase.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>belajar-78f13</string>
+	<key>STORAGE_BUCKET</key>
+	<string>belajar-78f13.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:360154272752:ios:ba0d1224cb880315d10335</string>
+	<key>DATABASE_URL</key>
+	<string>https://belajar-78f13.firebaseio.com</string>
+</dict>
+</plist>

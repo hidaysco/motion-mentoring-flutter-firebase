@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "360154272752",
+    "firebase_url": "https://belajar-78f13.firebaseio.com",
+    "project_id": "belajar-78f13",
+    "storage_bucket": "belajar-78f13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360154272752:android:76169af75d59c765d10335",
+        "android_client_info": {
+          "package_name": "com.example.motion_flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360154272752-smma83v48cglkbcs8eb7pq2ug6c7up6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8oq8NIn4u7D9EfRhpvZJoEgp7sUKeAkI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360154272752-smma83v48cglkbcs8eb7pq2ug6c7up6j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
